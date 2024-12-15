@@ -6,4 +6,4 @@ Repositório criado para armazenar o passo a passo e resultado do teste técnico
 
 [Parte 2 - Ingestão de dados](./pt2/)
 
-[Parte 3 - Teste Inglês]()
+[Parte 3 - Teste Inglês](./pt3/)
