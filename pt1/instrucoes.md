@@ -133,8 +133,10 @@ Na quinta query, devemos identificar se há alguma relação entre grau de instr
 ```sql
 select grau_instrucao, sum(num_filhos) as qtd_filhos, avg(salario)
 from cadastro
-group by grau_instrucao;
+group by grau_instrucao; 
 ```
+
+Selecionei apenas da tabela cadastro o grau de instrução, fiz um somatório do numero de filhos e agrupei pelo grau de instrução para visualizar qual categoria de ensino, possuía maior quantidade de filhos, porém, numa análise tardia, também identifiquei que possuem mais pessoas com ensino medio completo, em comparação com os demais graus de instrução, o que pode também influenciar no resultado e na análise final.
 
 Resultado: de certa forma sim, pessoas com grau de instrução menor possui uma maior quantidade de filhos e além disso, também possuem uma média de salario menor do que com pessoas com ensino superior. Mas, isso pode se dar ao fato também de cultura e classe social, pessoas em classes sociais mais baixas tendem a ter uma quantidade maior de filhos, devido a falta de instrução e orientação sobre métodos contraceptivos. 
 
