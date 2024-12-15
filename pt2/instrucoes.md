@@ -30,7 +30,4 @@ response = requests.get(url)
 print(response) # Saída <Response [404]>
 ```
 
-Verifiquei que não estava conseguindo realizar as requisições da API do desafio, tentei entrar na URL e na documentação e todas me deram retorno 404 not found. Até que depois de algumas horas, consegui verificar que a URL mudou e agora é: https://swapi.bry.com.br/documentation#start e para solicitar a requisição da API, precisaria mudar para ``url = "https://swapi.co/api/people/"``
-
-Obtive o response <200>
-
+Verifiquei que não estava conseguindo realizar as requisições da API do desafio, tentei entrar na URL e na documentação e todas me deram retorno 404 not found. Vi que em alguns sites e youtube informaram a API não estava mais funcionando. A URL antiga que era swapi.co não consegue dar retorno algum nas requisições. Portanto, não consegui finalizar a parte 2.
